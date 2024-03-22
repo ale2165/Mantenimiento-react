@@ -1,0 +1,74 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f6fc; /* Azul claro para el fondo */
+  color: #333; /* Texto oscuro */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+  background-color: #007bff; /* Azul brillante para la barra de navegación */
+  color: #fff; /* Texto blanco */
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff; /* Texto blanco para los enlaces */
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Subraya los enlaces al pasar el cursor */
+}
+
+/* Estilos para los botones */
+.button {
+  background-color: #007bff; /* Azul brillante para los botones */
+  color: #fff; /* Texto blanco */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Azul más oscuro al pasar el cursor */
+}
+
+/* Estilos para los formularios */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Otros estilos */
+h1 {
+  color: #007bff; /* Azul brillante para los encabezados */
+}
+
+h2 {
+  color: #0056b3; /* Azul más oscuro para subtítulos */
+}
+
